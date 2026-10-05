@@ -1,0 +1,17 @@
+[project]
+name = "chicago-halloween-safety"
+version = "0.1.0"
+description = "Rebuild Chicago Halloween crash, injury and block party comparisons from public city records."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "duckdb==1.5.0",
+  "numpy==2.5.3",
+  "pandas==2.3.3",
+  "scipy==1.17.0",
+  "statsmodels==0.14.6",
+  "shapely==2.1.2",
+  "click==8.3.0",
+]
+
+[tool.uv]
+package = false

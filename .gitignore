@@ -1,0 +1,20 @@
+# Downloads and every generated data file stay on your computer.
+.cache/
+.venv/
+packages/data/processed/
+apps/web/public/data/
+apps/web/public/config.local.js
+apps/web/dist/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+*.duckdb
+*.duckdb.wal
+*.csv
+*.geojson
+*.parquet
+*.xlsx
+*.zip
